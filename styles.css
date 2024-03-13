@@ -53,20 +53,29 @@ body {
   width: 1700px;
   height: 1024px;
   background-color: #cccbcb;
-  /* background-image: url("./images/cs16.jpg");
+  /* background-image: url("./images/cs1.png");
   background-repeat: no-repeat;
   background-size: 100% auto; */
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  gap: 50px;
+  /* gap: 50px; */
   border-radius: 50px;
   padding: 50px;
 }
 
+.first-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cs1 {
+  width: 900px;
+}
 .text1 {
   color: black;
-  width: 800px;
+  width: 700px;
   font-size: 30px;
 }
 
@@ -145,6 +154,7 @@ body {
   height: 1024px;
 }
 
-.telegram_logo {
+.telegram {
   width: 150px;
+  cursor: pointer;
 }
