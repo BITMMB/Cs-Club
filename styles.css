@@ -14,7 +14,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 50px;
+  padding: 15px;
   gap: 20px;
   /* background-color: #faf5d0; */
 }
@@ -47,8 +47,6 @@ body {
 .main-title {
   color: black;
   font-size: 60px;
-  position: absolute;
-  top: 30px;
 }
 
 .title {
@@ -98,8 +96,15 @@ body {
     text-align: center;
   }
 }
+
+.text2 {
+  color: black;
+  max-width: 800px;
+  font-size: 15px;
+}
+
 .block1 {
-  background-color: #eeecec;
+  background-color: #eef6fd;
 }
 
 .block2 {
@@ -148,6 +153,10 @@ body {
   }
 }
 
+.block12 {
+  background-color: #ffeded;
+}
+
 .connect {
   max-width: 560px;
   width: 100%;
@@ -162,8 +171,13 @@ body {
   }
 }
 
-.soldier1 {
-  max-width: 400px;
-  width: 100%;
-  height: auto;
+.button {
+  background-color: #f9e9d4;
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.step {
+  border: 1px solid black;
 }
